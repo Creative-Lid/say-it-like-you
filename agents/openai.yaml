@@ -1,0 +1,7 @@
+interface:
+  display_name: "Say It Like You"
+  short_description: "Human writing with a voice you control"
+  default_prompt: "Use $say-it-like-you to rewrite this in a natural voice while preserving every fact."
+
+policy:
+  allow_implicit_invocation: true
