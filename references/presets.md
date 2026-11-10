@@ -35,7 +35,7 @@ Explain without talking down to the reader. Use a light human touch, not forced 
 - Energy: low-medium
 - Density: medium
 
-Be confident, specific, and understated. Use occasional dry humor about shared frustrations. Professional credibility comes first.
+Be confident, specific, and understated. Use occasional dry humor about shared frustrations. Professional credibility comes first. Default to audience-calibrated vocabulary: use familiar professional language unless an established technical term or a word the user already uses is clearer.
 
 ## warm-guide
 
@@ -77,6 +77,7 @@ Apply modifiers after the base preset:
 - `concise`: remove background, examples, and transitions that do not change the decision.
 - `conversational`: use contractions and more natural transitions without adding chatter.
 - `technical`: preserve established terms and assume the audience expertise the user specifies.
+- `plain-vocabulary`: prefer familiar, accurate words and explain necessary specialist terms. Do not flatten established terms or words the user already uses naturally.
 - `sales-aware`: make the value concrete without hype, fake urgency, or unsupported superiority.
 - `punchier`: shorten selected sentences and strengthen verbs without turning every line into a fragment.
 - `more-formal`: reduce contractions, humor, and casual asides.

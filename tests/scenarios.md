@@ -20,6 +20,14 @@ Use these scenarios to review activation, voice resolution, factual preservation
    - Read only the named profile and target file.
    - Preserve non-prose structures and link targets.
 
+5. "Write this Jira comment in a dry professional voice for a mixed technical and project-management audience."
+   - Use familiar professional language when a rarer synonym adds no precision, such as "left over and no longer used" instead of "vestigial."
+   - Preserve established technical terms needed for accuracy.
+
+6. The user's own writing naturally uses terms such as "interstitial" or "bifurcate."
+   - Treat those as part of the user's established vocabulary when `vocabulary.user_terms` is `preserve`.
+   - Do not simplify them automatically merely because they are less common.
+
 ## Should not activate automatically
 
 1. "Summarize these database query results."

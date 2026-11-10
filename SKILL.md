@@ -7,7 +7,7 @@ description: >-
   warm, dry, humorous, concise, conversational, or technical.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Say It Like You
@@ -46,6 +46,7 @@ These rules apply to every voice:
 - Never invent a detail to make prose feel specific. Ask for the detail or write a simpler sentence.
 - Write for the actual reader and what they already know. In replies, lead with the answer or decision instead of rebuilding the thread.
 - Prefer concrete nouns and verbs to abstract benefits, inflated significance, or borrowed authority.
+- Calibrate vocabulary to the reader and the user's established language. Prefer a familiar, accurate word when a less common synonym adds no useful precision. Keep established technical terms and words the user uses naturally; professionalism is not a vocabulary contest.
 - Let sentence length and paragraph shape vary with the meaning. Do not manufacture symmetry.
 - Keep useful uncertainty, mixed feelings, quirks, and genuine asides when they belong to the writer.
 - Use contractions when the voice and format allow them.

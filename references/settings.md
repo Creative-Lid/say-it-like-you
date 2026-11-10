@@ -22,6 +22,10 @@ voice:
 punctuation:
   em_dashes: never
 
+vocabulary:
+  level: audience-calibrated
+  user_terms: preserve
+
 audience:
   industry: developer-tools
   expertise: experienced
@@ -47,6 +51,17 @@ Voice dimensions accept `none`, `low`, `low-medium`, `medium`, `medium-high`, or
 - `preserve`: match supplied prose or a writing sample.
 - `rare`: use only when the relationship between clauses genuinely calls for one. This is the default.
 - `never`: rewrite with a period, comma, colon, parentheses, or a different sentence structure.
+
+`vocabulary.level` accepts:
+
+- `plain`: prefer familiar, accurate words and explain necessary specialist terms.
+- `audience-calibrated`: use vocabulary appropriate to the reader and context, choosing the more familiar word when a less common synonym adds no precision. This is the default.
+- `specialized`: use established domain terminology for an expert audience, without adding jargon merely to sound technical.
+
+`vocabulary.user_terms` accepts:
+
+- `preserve`: treat distinctive words the user uses naturally as part of their vocabulary, even when those words are less common. This is the default.
+- `simplify`: prefer more familiar alternatives unless the term is necessary for accuracy.
 
 Audience fields are descriptive rather than a closed taxonomy. Use them to choose vocabulary, examples, assumed knowledge, and explanation depth. Do not turn industries into personalities.
 
